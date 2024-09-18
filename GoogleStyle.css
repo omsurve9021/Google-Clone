@@ -1,0 +1,242 @@
+*{
+    margin:0px;
+    color:white;
+}
+body {
+    background-image:url("nasaearth.avif");
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+/* Navbar Designing */
+.navbar {
+    height:50px;
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+
+}
+/* .Research_lab,i{
+    color:white;
+
+} */
+.Gmail {
+    color:white;
+    font-weight:lighter;
+    font-size:16px;
+    text-decoration:none;
+    font-family:'Times New Roman', Times, serif;
+    margin-right:15px;
+}
+.icons{
+    margin-left:15px;
+    color:black;
+}
+
+
+.Research_lab{
+    font-size:20px;
+    color:white;
+    margin-right:20px;
+}
+.profile {
+    height:40px;
+    width:40px;
+    border-radius:50%;
+    background-color:red;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin-left:15px;
+    margin-right:15px;
+
+}
+.image{
+    height:38px;
+    width:38px;
+    border-radius:50%;
+    background-image:url("om.jpg");
+    background-size:cover;
+}
+
+.heading {
+    height:auto;
+    width:auto;
+    font-size:100px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:70px;
+    font-family:Arial;
+    font-weight:medium;
+}
+
+.searchbar {
+    height:48px;
+    width:746px;
+    border-radius:2px solid orange;
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    background-color:white;
+    border-radius:30px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:50px;
+}
+.search {
+    width:50px;
+    color:black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:large;
+}
+.search,i{
+    font-size:large;
+    color:gray;
+}
+.inputsearch {
+    height:45px;
+    width:80%;
+    border:none;
+    font-size:large;
+    color:black;
+    font-weight:bold;
+}
+.mic{
+    width:50px;
+    margin-left:10px;
+}
+.mic:hover{
+    cursor:pointer;
+}
+.container{
+    height:250px;
+    margin-top:20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-left:100px;
+
+}
+.container1 {
+    height:120px;
+    width:100px;
+    text-align:center;
+    transform:translate(-50%,-50%);
+    margin-left:20px;
+
+    
+}
+.container1:hover{
+    border-radius:5px;
+    background-color:rgba(223, 231, 224, 0.2);
+}
+.container2{
+    height:50px;
+    width:50px;
+    border-radius:50%;
+    background-color:gray;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-left:25px;
+    margin-top:20px;
+}
+.image1{
+    height:35px;
+    width:35px;
+    border-radius:50%;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.image1{
+    background-image:url("yt.jpeg");
+}
+.image2{
+    background-image:url("leetcode.png");
+}
+.image3{
+    background-image:url("amzl.jpeg");
+}
+.image4{
+    background-image:url("google.webp");
+}
+.image5{
+    background-image:url("github.jpeg");
+}
+
+@media screen and (width < 480px){
+    .navbar{
+        height:auto;
+        width:auto;
+        display:flex;
+        justify-content:flex-end;
+        align-items:center;
+    }
+    .heading {
+        height:auto;
+        width:auto;
+        font-size:80px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        margin-top:70px;
+        font-family:Arial;
+        font-weight:medium;
+    }
+    .mic{
+        margin-left:10px;
+    }
+    .camera{
+        margin-right:10px;
+    }
+    .searchbar {
+        height:fit-content;
+        width:fit-content;
+        border-radius:2px solid orange;
+        display:flex;
+        justify-content:flex-start;
+        align-items:center;
+        background-color:white;
+        border-radius:30px;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:30px;
+    }
+    .inputsearch {
+        height:45px;
+        width:300px;
+        border:none;
+        color:black;
+        font-weight:bold;
+    }
+    .container{
+        height:250px;
+        display:flex;
+        flex-wrap: wrap;
+        align-items:center;
+        margin-top:50px;
+    }
+    .container1 {
+        height:120px;
+        width:100px;
+        text-align:center;
+        transform:translate(-50%,-50%);
+    }
+    .container2{
+        height:50px;
+        width:50px;
+        border-radius:50%;
+        background-color:gray;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    body {
+        height:100vh;
+        background-image:url("nasaearth.avif");
+        background-size:cover;
+        background-repeat:no-repeat;
+    }
+}
